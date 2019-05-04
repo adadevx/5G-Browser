@@ -33,9 +33,9 @@ android {
         }
 
         release {
-            multiDexEnabled false
-            minifyEnabled true
-            shrinkResources true
+            multiDexEnabled true
+            minifyEnabled false
+            shrinkResources false
             proguardFiles 'proguard-project.txt'
             testCoverageEnabled false
         }
@@ -104,14 +104,14 @@ dependencies {
     testImplementation 'org.robolectric:robolectric:3.8'
 
     // support libraries
-    implementation 'com.google.android.gms:play-services-ads:17.1.1'
+    implementation 'com.google.android.gms:play-services-ads:17.1.2'
     implementation "androidx.palette:palette:1.0.0"
-    implementation "androidx.annotation:annotation:1.0.0"
+    implementation "androidx.annotation:annotation:1.0.1"
     implementation "androidx.vectordrawable:vectordrawable-animated:1.0.0"
-    implementation "androidx.appcompat:appcompat:1.0.0"
+    implementation "androidx.appcompat:appcompat:1.0.2"
     implementation "com.google.android.material:material:1.0.0"
     implementation "androidx.recyclerview:recyclerview:1.0.0"
-    implementation "androidx.core:core:1.0.0"
+    implementation "androidx.core:core:1.0.1"
     implementation "androidx.fragment:fragment:1.0.0"
     implementation "androidx.drawerlayout:drawerlayout:1.0.0"
 
@@ -161,7 +161,7 @@ dependencies {
 
     // kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
-    implementation 'androidx.core:core-ktx:1.0.0'
+    implementation 'androidx.core:core-ktx:1.0.1'
 }
 
 kapt {
