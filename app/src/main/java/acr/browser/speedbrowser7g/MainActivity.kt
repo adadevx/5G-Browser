@@ -8,7 +8,6 @@ import android.view.KeyEvent
 import android.view.Menu
 import android.webkit.CookieManager
 import android.webkit.CookieSyncManager
-import com.google.android.gms.ads.MobileAds
 import io.reactivex.Completable
 
 class MainActivity : BrowserActivity() {
@@ -29,7 +28,6 @@ class MainActivity : BrowserActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        MobileAds.initialize(this, "ca-app-pub-1851158852084319~7934568875")
     }
 
     override fun onNewIntent(intent: Intent) =

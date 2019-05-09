@@ -15,13 +15,15 @@ import android.os.Build
 import android.os.StrictMode
 import android.webkit.WebView
 import androidx.appcompat.app.AppCompatDelegate
+import androidx.multidex.BuildConfig
+import androidx.multidex.MultiDexApplication
 import com.squareup.leakcanary.LeakCanary
 import io.reactivex.Scheduler
 import io.reactivex.Single
 import io.reactivex.plugins.RxJavaPlugins
 import javax.inject.Inject
 
-class BrowserApp : Application() {
+class BrowserApp : MultiDexApplication() {
 
     @Inject internal lateinit var developerPreferences: DeveloperPreferences
     @Inject internal lateinit var bookmarkModel: BookmarkRepository
