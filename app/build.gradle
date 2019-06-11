@@ -141,7 +141,7 @@ dependencies {
     implementation 'com.anthonycr.grant:permissions:1.1.2'
 
     // proxy support
-    implementation 'net.i2p.android:client:0.8'
+    //implementation 'net.i2p.android:client:0.8'
 
     implementation 'com.squareup.okhttp3:okhttp:3.12.1'
 

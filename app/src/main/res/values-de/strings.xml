@@ -160,7 +160,6 @@
     <string-array name="proxy_choices_array">
         <item>Kein (Standard)</item>
         <item>Orbot</item>
-        <item>I2P</item>
         <item>Manuell</item>
     </string-array>
     <string name="manual_proxy">Manueller Proxy</string>

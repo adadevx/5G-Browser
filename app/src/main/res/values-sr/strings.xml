@@ -148,7 +148,6 @@
     <string-array name="proxy_choices_array">
         <item>Ништа</item>
         <item>Орбот</item>
-        <item>I2P</item>
         <item>Ручно</item>
     </string-array>
     <string name="manual_proxy">Ручне поставке проксија</string>

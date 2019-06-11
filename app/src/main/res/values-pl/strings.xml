@@ -252,7 +252,6 @@
 	<string-array name="proxy_choices_array">
 		<item>Bez proxy</item>
 		<item>Orbot</item>
-		<item>I2P</item>
 		<item>Ręczne ustawienia</item>
 	</string-array>
 	<string-array name="url_content_array">

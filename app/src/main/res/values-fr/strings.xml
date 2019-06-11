@@ -151,7 +151,6 @@
     <string-array name="proxy_choices_array">
         <item>Aucun</item>
         <item>Orbot</item>
-        <item>I2P</item>
         <item>Manuel</item>
     </string-array>
     <string name="manual_proxy">Proxy manuel</string>

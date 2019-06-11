@@ -149,7 +149,6 @@
     <string-array name="proxy_choices_array">
         <item>Não</item>
         <item>Orbot</item>
-        <item>I2P</item>
         <item>Manual</item>
     </string-array>
     <string name="manual_proxy">Proxy manual</string>

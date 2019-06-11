@@ -148,7 +148,6 @@
     <string-array name="proxy_choices_array">
         <item>Egyik sem</item>
         <item>Orbot</item>
-        <item>I2P</item>
         <item>Manuális</item>
     </string-array>
     <string name="manual_proxy">Manuális proxy</string>

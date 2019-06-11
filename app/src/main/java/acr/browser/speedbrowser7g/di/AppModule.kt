@@ -31,7 +31,6 @@ import dagger.Provides
 import io.reactivex.Scheduler
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
-import net.i2p.android.ui.I2PAndroidHelper
 import okhttp3.*
 import java.io.File
 import java.util.concurrent.Executors
@@ -151,10 +150,6 @@ class AppModule(private val browserApp: BrowserApp, private val buildInfo: Build
     } else {
         NoOpLogger()
     }
-
-    @Provides
-    @Singleton
-    fun provideI2PAndroidHelper(): I2PAndroidHelper = I2PAndroidHelper(browserApp)
 
     @Provides
     fun providesListPageReader(): ListPageReader = MezzanineGenerator.ListPageReader()

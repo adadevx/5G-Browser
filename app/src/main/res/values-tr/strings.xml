@@ -137,7 +137,6 @@
     <string-array name="proxy_choices_array">
         <item>Yok</item>
         <item>Orbot</item>
-        <item>I2P</item>
         <item>El ile</item>
     </string-array>
     <string name="manual_proxy">El ile proxy</string>

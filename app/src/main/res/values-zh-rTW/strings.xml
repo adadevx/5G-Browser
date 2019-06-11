@@ -146,7 +146,6 @@
     <string-array name="proxy_choices_array">
         <item>無</item>
         <item>Orbot</item>
-        <item>I2P</item>
         <item>手動</item>
     </string-array>
     <string name="manual_proxy">手動 Proxy</string>
