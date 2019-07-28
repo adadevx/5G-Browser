@@ -16,7 +16,7 @@
     android:focusableInTouchMode="true"
     android:gravity="center">
 
-    <acr.browser.speedbrowser7g.view.SearchView
+    <net.adadev.browser5g.view.SearchView
         android:id="@+id/search"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

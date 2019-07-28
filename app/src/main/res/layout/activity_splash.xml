@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="acr.browser.speedbrowser7g.SplashActivity">
+    tools:context="net.adadev.browser5g.SplashActivity">
 
     <ImageView
         android:id="@+id/imageView2"

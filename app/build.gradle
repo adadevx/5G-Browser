@@ -57,14 +57,14 @@ android {
         lightningPlus {
             dimension "capabilities"
             buildConfigField "boolean", "FULL_VERSION", "Boolean.parseBoolean(\"true\")"
-            applicationId "lite.browser.speedbrowser7g"
+            applicationId "net.adadev.browser5g"
             versionCode project.versionCode_plus
         }
 
         lightningLite {
             dimension "capabilities"
             buildConfigField "boolean", "FULL_VERSION", "Boolean.parseBoolean(\"false\")"
-            applicationId "plus.browser.speedbrowser7g"
+            applicationId "net.adadev.browser5g"
             versionCode project.versionCode_lite
         }
     }

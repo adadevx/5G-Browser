@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
     <header
-        android:fragment="acr.browser.speedbrowser7g.settings.fragment.GeneralSettingsFragment"
+        android:fragment="net.adadev.browser5g.settings.fragment.GeneralSettingsFragment"
         android:title="@string/settings_general"/>
     <header
-        android:fragment="acr.browser.speedbrowser7g.settings.fragment.BookmarkSettingsFragment"
+        android:fragment="net.adadev.browser5g.settings.fragment.BookmarkSettingsFragment"
         android:title="@string/bookmark_settings"/>
     <header
-        android:fragment="acr.browser.speedbrowser7g.settings.fragment.DisplaySettingsFragment"
+        android:fragment="net.adadev.browser5g.settings.fragment.DisplaySettingsFragment"
         android:title="@string/settings_display"/>
     <header
-        android:fragment="acr.browser.speedbrowser7g.settings.fragment.PrivacySettingsFragment"
+        android:fragment="net.adadev.browser5g.settings.fragment.PrivacySettingsFragment"
         android:title="@string/settings_privacy"/>
     <header
-        android:fragment="acr.browser.speedbrowser7g.settings.fragment.AdvancedSettingsFragment"
+        android:fragment="net.adadev.browser5g.settings.fragment.AdvancedSettingsFragment"
         android:title="@string/settings_advanced"/>
     <header
-        android:fragment="acr.browser.speedbrowser7g.settings.fragment.AboutSettingsFragment"
+        android:fragment="net.adadev.browser5g.settings.fragment.AboutSettingsFragment"
         android:summary="@string/settings_about_explain"
         android:title="@string/settings_about"/>
     <header
-        android:fragment="acr.browser.speedbrowser7g.settings.fragment.DebugSettingsFragment"
+        android:fragment="net.adadev.browser5g.settings.fragment.DebugSettingsFragment"
         android:title="@string/debug_title"/>
 </preference-headers>
